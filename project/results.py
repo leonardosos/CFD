@@ -3,6 +3,8 @@ Project BRIGHENTI
 
 This script is used to obatain the correlation between the Peclet number
 and the convergence of the numerical solution of the 1D steady-state.
+
+Iteratively, it plots the solution for a specific M and Peclet number using matplotlib.
 '''
 
 import numpy as np
@@ -99,5 +101,3 @@ for M in M_set_list:
 
 plt.legend()
 plt.show()
-
-#plot_solution_steady(x,T,Texact,Pe,dx)
